@@ -1,2 +1,2 @@
-# QA-s-Improvement
+# QA-Improvement
 This is our QA improvement repository. 
