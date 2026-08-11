@@ -28,6 +28,15 @@
 **Our company:** Yes, Claude is connected to Atlassian during manual testing
 **Details:** Pulling ticket history means the AI can check whether an issue was already reported or is related to a known bug, which supports better prioritization and avoids duplicate reports.
 
+## What's Working 4: Bug report quality from AI testing is standardized
+
+**Applies to:** Manual
+**Source:** Claude, confirmed by general QA guidance on reproducible bug reports
+**Our company:** Applicable — confirmed
+**Details:** Bug reports generated during AI-assisted testing follow a clear template and are informed by previous bug examples available in Atlassian. This
+  ensures consistent structure — including repro steps, expected vs. actual behavior, and severity — reducing the need for manual cleanup before reports are
+   logged.
+
 ---
 
 ## What's Not Working
@@ -46,9 +55,4 @@
 **Our company:** Not applicable / unclear — appears ad hoc rather than session-based
 **Details:** Without a charter or session structure for what Claude explores each time, coverage can become inconsistent, and it's harder to know what was and wasn't tested.
 
-## What's Not Working 3: Bug report quality from AI testing not yet standardized
 
-**Applies to:** Manual
-**Source:** Claude, confirmed by general QA guidance on reproducible bug reports
-**Our company:** Not applicable / unclear — needs confirmation
-**Details:** If bug reports generated during AI-assisted testing don't consistently include clear repro steps and expected vs. actual behavior, they may need manual cleanup before going into Atlassian, costing time downstream.
